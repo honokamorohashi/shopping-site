@@ -1,7 +1,6 @@
 @charset "utf-8";
 
-/* sp_design.css ver1.01 : Written by syam 2016.08.xx 記 */
-/* SPサイズ限定でサイト時の表示・表現の内容を記載していくCSS */
+
 #PC_MENU{
 	display:none;
 }
@@ -9,7 +8,7 @@
 	width:110px;
 }
 
-/* header部分の設定 */
+
 #LOGO{
 	width:100%;
 	text-align: center;
@@ -17,7 +16,7 @@
 #LOGO img{
 	margin-top:15px;
 }
-/* ヘッダナビの設定 */
+
 #SP_MENU{
 	text-align: center;
 }
@@ -33,7 +32,6 @@
 
 
 
-/* ハンバーガー内の隠しメニュー部分の設定 */
 #PC_MENU{
 	background:white;
 	padding:10px;
@@ -65,17 +63,28 @@
 
 
 
-/* PageTopボタンの設定 */
 #PAGE_TOP{
 	text-align: center;
 }
 
-/* Footerナビの設定 */
 footer li{
 	margin:0 1px;
 }
 
-/* 検索エンジン部分の設定 */
 #SEARCH_ENGINE h4{
 	display:none;
+}
+
+.sub_pict{
+	width:40%;
+	padding:15px 3%;
+	float:left;
+}
+.sub_text{
+	padding:10px 2%;
+	width:50%;
+	float:right;
+}
+.more_button{
+	text-align:left;
 }

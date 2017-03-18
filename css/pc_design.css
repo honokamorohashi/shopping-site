@@ -13,12 +13,12 @@
 	width:141px;
 }
 
-/* header 設定 */
+
 header{
 	padding:20px 0 0 !important;
 }
 
-/* ヘッダナビの設定 */
+
 header ul{
 	float:right;
 	padding:17px 0 0;
@@ -41,7 +41,7 @@ header li,header li *{
 	display:block;
 }
 
-/* 変化途中のナビに関する設定 */
+
 @media (max-width: 749px){
 	header ul{
 		padding:0;
@@ -49,12 +49,12 @@ header li,header li *{
 }
 
 
-/* Footerの設定 */
+
 #PAGE_TOP{
 	text-align: right;
 }
 
-/* 検索エンジン部分 */
+
 #SEARCH_ENGINE label{
 	font-size:1.3rem;
 	font-weight:bold;
